@@ -1,0 +1,53 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ecf0f1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU"
+        android:textSize="40sp"
+        android:textColor="#2c3e50"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#ecf0f1">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD EMPLOYEE"
+            android:id="@+id/addbut"
+            android:textSize="20sp"
+            android:textColor="#ecf0f1"
+            android:layout_marginHorizontal="75dp"
+            android:layout_marginBottom="25dp"
+            android:background="#2c3e50"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/searchbut"
+            android:text="SEARCH EMPLOYEE"
+            android:textSize="20sp"
+            android:textColor="#ecf0f1"
+            android:layout_marginHorizontal="75dp"
+            android:layout_marginBottom="25dp"
+            android:background="#2c3e50"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logoutbut"
+            android:text="LOGOUT"
+            android:textSize="20sp"
+            android:textColor="#ecf0f1"
+            android:layout_marginHorizontal="75dp"
+            android:background="#8B0000"/>
+
+    </LinearLayout>
+</LinearLayout>
